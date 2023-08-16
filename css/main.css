@@ -10,4 +10,331 @@
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Miracle;
+  src: url(/font/Miracle\ Personal\ use.otf);
+}
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+  src: url(/font/helvet.otf);
+}
+.container {
+  margin: 0 auto;
+}
+
+.rooms {
+  width: 1440px;
+  height: 1161px;
+  background: #fffcf6;
+}
+.rooms .rooms-apartments {
+  display: flex;
+  width: 100%;
+  height: 220px;
+}
+.rooms .rooms-apartments h5 {
+  display: none;
+}
+.rooms .rooms-apartments .rooms {
+  display: none;
+}
+.rooms .rooms-apartments h1 {
+  margin-left: 31px;
+  margin-top: 1px;
+  color: #1b3b36;
+  font-family: Miracle;
+  font-size: 125px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105px;
+  text-transform: uppercase;
+}
+.rooms .rooms-apartments h6 {
+  margin-top: 1px;
+  margin-left: 190px;
+  width: 335px;
+  color: #1b3b36;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.rooms .rooms-1 {
+  display: flex;
+}
+.rooms .rooms-1 .rooms-1-left {
+  margin-left: 31px;
+  width: 217px;
+  margin-top: 198px;
+}
+.rooms .rooms-1 .rooms-1-left .strelka {
+  margin-top: 277px;
+  width: 170px;
+  height: 170px;
+}
+.rooms .label {
+  margin-left: 138px;
+}
+.rooms .label .rooms-label {
+  margin-top: 200px;
+  width: 249px;
+  height: 65px;
+  border-radius: 99px;
+  border: 1px solid #313f38;
+  background-color: #fffcf6;
+  color: #1b3b36;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.rooms .label .rooms-label span {
+  margin-right: 23px;
+}
+.rooms .label h3 {
+  margin-top: 235px;
+  color: #1b3b36;
+  font-family: Miracle;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: capitalize;
+}
+.rooms .label p {
+  margin-top: 40px;
+  width: 335px;
+  color: #1b3b36;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.rooms .label .pages {
+  margin-top: 85px;
+}
+.rooms .img-bckg {
+  margin-top: 150px;
+  width: 372px;
+}
+.rooms .img-bckg .rooms-img-bckg {
+  margin-left: 138px;
+  width: 572px;
+  height: 756px;
+  background-image: url(/images/space-copenhagen2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.rooms .img-bckg .rooms-img-bckg .b-room {
+  margin-top: 531px;
+  margin-left: 347px;
+  width: 175px;
+  height: 175px;
+}
+
+@media screen and (max-width: 1024px) {
+  .rooms {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .rooms .rooms-top {
+    width: 100%;
+  }
+  .rooms .rooms-top h5 {
+    display: none;
+  }
+  .rooms .rooms-top .room {
+    display: none;
+  }
+  .rooms .rooms-top h1 {
+    margin-top: 64px;
+    margin-left: 10px;
+    font-size: 65px;
+    line-height: 50px;
+  }
+  .rooms .rooms-top h6 {
+    margin-left: 270px;
+    width: 200px;
+    font-size: 16px;
+  }
+  .rooms .rooms-1 {
+    width: 100%;
+    display: flex;
+  }
+  .rooms .rooms-1 .rooms-1-left .rooms-1-left-img {
+    display: none;
+  }
+  .rooms .rooms-1 .rooms-1-left .strelka {
+    margin-top: 1px;
+    margin-left: -20px;
+    width: 105px;
+    height: 105px;
+  }
+  .rooms .label {
+    margin-left: 36px;
+  }
+  .rooms .label .rooms-label {
+    display: none;
+  }
+  .rooms .label h3 {
+    margin-top: 200px;
+    font-size: 36px;
+  }
+  .rooms .label p {
+    width: 250px;
+    font-size: 13px;
+  }
+  .rooms .label .pages {
+    width: 70px;
+  }
+  .rooms .img-bckg {
+    margin-left: -50px;
+  }
+  .rooms .img-bckg .rooms-img-bckg {
+    width: 356px;
+    height: 470px;
+  }
+  .rooms .img-bckg .rooms-img-bckg .bckg-room {
+    margin-top: 334px;
+    margin-left: 220px;
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .rooms {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .rooms .rooms-top {
+    display: block;
+    width: 100%;
+  }
+  .rooms .rooms-top h1 {
+    display: none;
+  }
+  .rooms .rooms-top h5 {
+    margin-top: 70px;
+    margin-left: 280px;
+    display: flex;
+    color: #1b3b36;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .rooms .rooms-top .room {
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    width: 394px;
+    color: #1b3b36;
+    font-family: Miracle;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+  }
+  .rooms .rooms-top h6 {
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .rooms .rooms-main {
+    position: relative;
+    width: 100%;
+  }
+  .rooms .rooms-main .rooms-right {
+    width: 100%;
+  }
+  .rooms .rooms-main .rooms-right .rooms-right-bg {
+    position: absolute;
+    margin-top: 50px;
+    left: 1px;
+    width: 335px;
+    height: 414px;
+    margin-left: 10px;
+  }
+  .rooms .rooms-main .rooms-right .rooms-right-bg .book-room {
+    margin-top: 284px;
+    margin-left: 195px;
+    width: 120px;
+    height: 120px;
+  }
+  .rooms .rooms-main .rooms-middle {
+    margin-top: 500px;
+    width: 100%;
+  }
+  .rooms .rooms-main .rooms-middle .rooms-btn {
+    display: none;
+  }
+  .rooms .rooms-main .rooms-middle .pages {
+    position: absolute;
+    top: 570px;
+    left: 275px;
+  }
+  .rooms .rooms-main .rooms-middle h3 {
+    margin-left: -65px;
+    font-size: 30px;
+  }
+  .rooms .rooms-main .rooms-middle p {
+    margin-left: 60px;
+    width: 221px;
+    font-size: 13px;
+  }
+  .rooms .rooms-main .rooms-main-left {
+    width: 100%;
+  }
+  .rooms .rooms-main .rooms-main-left .rooms-main-left-img {
+    display: none;
+  }
+  .rooms .rooms-main .rooms-main-left .right-btn {
+    position: absolute;
+    top: 790px;
+    left: -5px;
+    display: flex;
+    width: 70px;
+    height: 70px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*# sourceMappingURL=main.css.map */
