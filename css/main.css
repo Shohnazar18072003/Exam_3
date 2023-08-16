@@ -1,13 +1,1017 @@
+@import url("https://fonts.cdnfonts.com/css/miracle-2");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-Th.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCn.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtExO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+.header {
+  display: flex;
+  background-color: #313f38;
+}
+.header__box {
+  width: 1920px;
+  height: 1591px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.header__box__navigation {
+  width: 1860px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 82px;
+}
+.header__box__navigation__link {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--white, #fffcf6);
+  font-family: "Helvetica Neue LT Std", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.header__box__navigation__items {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 70px;
+}
+.header__box__navigation__items li {
+  color: var(--white, #fffcf6);
+  font-family: "Helvetica Neue LT Std", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.header__box__navigation__items li:hover {
+  cursor: pointer;
+  color: rgb(252, 208, 67);
+}
+.header__box__navigation__contact {
+  color: var(--white, #fffcf6);
+  font-family: "Helvetica Neue LT Std", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.header__box__navigation__contact:hover {
+  cursor: pointer;
+  color: rgb(252, 208, 67);
+}
+.header__box__navigation img {
+  display: none;
+}
+.header__box__hero__text {
+  width: 1860px;
+  height: 293px;
+  margin-bottom: 95px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__box__hero__text_1 {
+  height: 100%;
+  display: inline-block;
+}
+.header__box__hero__text_1 h1.title {
+  color: #fffcf6;
+  font-family: "Miracle", sans-serif;
+  font-size: 220px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200px;
+  margin-bottom: 62px;
+}
+.header__box__hero__text_1 h1.title span {
+  color: var(--secondary-color, #fcd043);
+  font-family: "Miracle", sans-serif;
+  font-size: 220px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200px;
+}
+.header__box__hero__text_1 p.subtitle {
+  display: inline-block;
+  color: var(--secondary-color, #fcd043);
+  font-family: "Helvetica Neue LT Std", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.header__box__hero__text .box {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__box__hero__text_2 {
+  height: 100%;
+  display: inline-block;
+}
+.header__box__hero__text_2 button.btn1 {
+  cursor: pointer;
+  width: 249px;
+  height: 70px;
+  background-color: transparent;
+  background-image: url(/images/Rectangle\ 125.svg);
+  stroke-width: 1px;
+  border: none;
+  color: var(--white, #fffcf6);
+  font-family: "Helvetica Neue LT Std", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 116px;
+}
+.header__box__hero__text_2 button.btn1 img {
+  margin-left: 30px;
+}
+.header__box__hero__text_2 p.subtitle {
+  width: 350px;
+  color: var(--white, #fffcf6);
+  font-family: "Helvetica Neue LT Std", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.header__box__hero__text_3 {
+  display: inline-block;
+}
+.header__box__hero__text_3 img {
+  margin-top: 20px;
+}
+.header__box__hero__image {
+  width: 1860px;
+  height: 781px;
+  margin-bottom: 89px;
+  text-align: right;
+  background-image: url(/images/hero_image.png);
+}
+.header__box__hero__labels {
+  width: 1860px;
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__box__hero__labels .label1 {
+  width: 403px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.header__box__hero__labels .label1 .subtitle1 {
+  color: var(--secondary-color, #fcd043);
+  font-family: "Helvetica Neue LT Std", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.header__box__hero__labels .label1 .subtitle2 {
+  color: var(--white, #fffcf6);
+  font-family: "Helvetica Neue LT Std", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.header__box__hero__labels .label2 {
+  width: 251px;
+  color: var(--white, #fffcf6);
+  text-align: right;
+  font-family: "Helvetica Neue LT Std", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.header__box__hero__labels .label2 span.hall {
+  color: var(--white, #fffcf6);
+  font-family: "Helvetica Neue LT Std", sans-serif;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1440px) {
+  .header {
+    width: 100%;
+  }
+  .header__box {
+    width: 95%;
+    height: 1480px;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .header__box__navigation {
+    width: 100%;
+  }
+  .header__box__navigation img {
+    display: none;
+  }
+  .header__box__hero {
+    width: 100%;
+  }
+  .header__box__hero__text {
+    width: 100%;
+    height: 285px;
+  }
+  .header__box__hero__text_1 h1.title {
+    width: 755px;
+    height: 207px;
+    font-size: 150px;
+    margin-bottom: 28px;
+  }
+  .header__box__hero__text_1 h1.title span {
+    font-size: 150px;
+  }
+  .header__box__hero__text_1 p.subtitle {
+    font-size: 18px;
+  }
+  .header__box__hero__text_2 button.btn1 {
+    margin-top: 20px;
+    margin-bottom: 110px;
+  }
+  .header__box__hero__text_3 img {
+    margin-top: 20px;
+  }
+  .header__box__hero__image {
+    width: 100%;
+  }
+  .header__box__hero__image img.form {
+    width: 80%;
+    height: 130px;
+  }
+  .header__box__hero__image img.btn2 {
+    display: none;
+  }
+  .header__box__hero__labels {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .header {
+    width: 100%;
+  }
+  .header__box {
+    width: 95%;
+    height: 1300px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 40px;
+  }
+  .header__box__navigation {
+    width: 100%;
+    margin-bottom: 9px;
+  }
+  .header__box__navigation__items {
+    display: none;
+  }
+  .header__box__navigation__contact {
+    display: none;
+  }
+  .header__box__navigation img {
+    display: inline-block;
+    width: 40px;
+    height: 10px;
+  }
+  .header__box__hero {
+    width: 100%;
+  }
+  .header__box__hero__text {
+    width: 100%;
+    height: 182px;
+  }
+  .header__box__hero__text_1 {
+    width: 533px;
+  }
+  .header__box__hero__text_1 h1.title {
+    width: 533px;
+    display: inline-block;
+    font-size: 110px;
+    font-weight: 400;
+    margin-bottom: 19px;
+  }
+  .header__box__hero__text_1 h1.title span {
+    display: inline-block;
+    font-size: 110px;
+    font-weight: 400;
+  }
+  .header__box__hero__text_1 p.subtitle {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .header__box__hero__text .box {
+    width: 40%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+  }
+  .header__box__hero__text_2 {
+    height: 48%;
+  }
+  .header__box__hero__text_2 button.btn1 {
+    display: none;
+  }
+  .header__box__hero__text_2 p.subtitle {
+    width: 200px;
+    height: 92px;
+    font-size: 11px;
+    font-weight: 400;
+    display: inline-block;
+  }
+  .header__box__hero__text_3 {
+    width: 70px;
+    display: inline-block;
+  }
+  .header__box__hero__text_3 img {
+    margin: 0;
+    width: 45px;
+    height: 45px;
+  }
+  .header__box__hero__image {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  .header__box__hero__labels .label1 .subtitle1 {
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .header__box__hero__labels .label1 .subtitle2 {
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .header__box__hero__labels .label2 {
+    width: 175px;
+    font-size: 16px;
+  }
+  .header__box__hero__labels .label2 span.hall {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .header {
+    width: 100%;
+  }
+  .header__box {
+    width: 95%;
+    height: 880px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 30px;
+  }
+  .header__box__navigation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  .header__box__navigation__items {
+    display: none;
+  }
+  .header__box__navigation__contact {
+    display: none;
+  }
+  .header__box__navigation img {
+    display: inline-block;
+    width: 40px;
+    height: 10px;
+  }
+  .header__box__hero {
+    width: 95%;
+  }
+  .header__box__hero__text {
+    width: 100%;
+    flex-direction: column;
+  }
+  .header__box__hero__text_1 {
+    width: 100%;
+  }
+  .header__box__hero__text_1 h1.title {
+    width: 355px;
+    height: 97px;
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+  .header__box__hero__text_1 h1.title span {
+    height: 97px;
+    font-size: 70px;
+    font-weight: 400;
+  }
+  .header__box__hero__text_1 p.subtitle {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    margin-top: 24px;
+  }
+  .header__box__hero__text .box {
+    width: 100%;
+    height: 132px;
+    text-align: center;
+  }
+  .header__box__hero__text .box .header__box__hero__text_2 p.subtitle {
+    width: 291px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 40px;
+  }
+  .header__box__hero__text .box .header__box__hero__text_3 img {
+    display: none;
+  }
+  .header__box__hero__image {
+    width: 355px;
+    height: 430px;
+    background-image: url(/images/space-copenhagen-the-stratford-architonic-rs-8-03-arcit18\ 2.png);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+  }
+  .header__box__hero__image img.form {
+    display: none;
+  }
+  .header__box__hero__image img.btn2 {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  .header__box__hero__labels {
+    width: 100%;
+    height: 30px;
+  }
+  .header__box__hero__labels .label1 {
+    display: none;
+  }
+  .header__box__hero__labels .label2 {
+    width: 117px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .header__box__hero__labels .label2 span.hall {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-Th.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCn.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtExO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-Th.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCn.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtExO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-Th.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCn.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtExO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-Th.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCn.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtExO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-Th.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCn.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtExO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-Th.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCn.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-ThIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtCnO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtEx.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtExO.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("/fonts/HelveticaNeueLTStd-UltLtIt.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 /*# sourceMappingURL=main.css.map */
