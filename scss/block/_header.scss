@@ -1,1 +1,578 @@
 @import './global';
+@import url("https://fonts.cdnfonts.com/css/miracle-2");
+
+.header {
+  display: flex;
+  background-color: #313f38;
+
+  &__box {
+    width: 1920px;
+    height: 1591px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+    &__navigation {
+      width: 1860px;
+      height: 24px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 82px;
+
+      &__link {
+        text-decoration: none;
+        cursor: pointer;
+        color: var(--white, #fffcf6);
+        font-family: "Helvetica Neue LT Std", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+      &__items {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 70px;
+
+        li {
+          color: var(--white, #fffcf6);
+          font-family: "Helvetica Neue LT Std", sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+          text-transform: uppercase;
+        }
+        li:hover {
+          cursor: pointer;
+          color: rgba(252, 208, 67, 1);
+        }
+      }
+      &__contact {
+        color: var(--white, #fffcf6);
+        font-family: "Helvetica Neue LT Std", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+      }
+      &__contact:hover {
+        cursor: pointer;
+        color: rgba(252, 208, 67, 1);
+      }
+      img {
+        display: none;
+      }
+    }
+
+    &__hero {
+      &__text {
+        width: 1860px;
+        height: 293px;
+        margin-bottom: 95px;
+        display: flex;
+        justify-content: space-between;
+
+        &_1 {
+          height: 100%;
+          display: inline-block;
+
+          h1.title {
+            color: #fffcf6;
+            font-family: "Miracle", sans-serif;
+            font-size: 220px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 200px;
+            margin-bottom: 62px;
+
+            span {
+              color: var(--secondary-color, #fcd043);
+              font-family: "Miracle", sans-serif;
+              font-size: 220px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 200px;
+            }
+          }
+
+          p.subtitle {
+            display: inline-block;
+            color: var(--secondary-color, #fcd043);
+            font-family: "Helvetica Neue LT Std", sans-serif;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+          }
+        }
+
+        .box {
+          width: 33%;
+          display: flex;
+          justify-content: space-between;
+        }
+
+        &_2 {
+          height: 100%;
+          display: inline-block;
+
+          button.btn1 {
+            cursor: pointer;
+            width: 249px;
+            height: 70px;
+            background-color: transparent;
+            background-image: url(/images/Rectangle\ 125.svg);
+            stroke-width: 1px;
+            border: none;
+            color: var(--white, #fffcf6);
+            font-family: "Helvetica Neue LT Std", sans-serif;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+            display: flex;
+            gap: 23px;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 116px;
+
+            img {
+              margin-left: 30px;
+            }
+          }
+
+          p.subtitle {
+            width: 350px;
+            color: var(--white, #fffcf6);
+            font-family: "Helvetica Neue LT Std", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+          }
+        }
+
+        &_3 {
+          display: inline-block;
+
+          img {
+            margin-top: 20px;
+          }
+        }
+      }
+
+      &__image {
+        width: 1860px;
+        height: 781px;
+        margin-bottom: 89px;
+        text-align: right;
+        background-image: url(/images/hero_image.png);
+      }
+
+      &__labels {
+        width: 1860px;
+        height: 76px;
+        display: flex;
+        justify-content: space-between;
+
+        .label1 {
+          width: 403px;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+
+          .subtitle1 {
+            color: var(--secondary-color, #fcd043);
+            font-family: "Helvetica Neue LT Std", sans-serif;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration-line: underline;
+            text-transform: uppercase;
+          }
+
+          .subtitle2 {
+            color: var(--white, #fffcf6);
+            font-family: "Helvetica Neue LT Std", sans-serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration-line: underline;
+            text-transform: uppercase;
+          }
+        }
+
+        .label2 {
+          width: 251px;
+          color: var(--white, #fffcf6);
+          text-align: right;
+          font-family: "Helvetica Neue LT Std", sans-serif;
+          font-size: 26px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-transform: uppercase;
+
+          span.hall {
+            color: var(--white, #fffcf6);
+            font-family: "Helvetica Neue LT Std", sans-serif;
+            font-size: 26px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1440px) {
+  .header {
+    width: 100%;
+
+    &__box {
+      width: 95%;
+      height: 1480px;
+      margin: 0;
+      padding: 0;
+      padding-top: 40px;
+      padding-right: 25px;
+      padding-left: 25px;
+
+      &__navigation {
+        width: 100%;
+        img {
+          display: none;
+        }
+      }
+
+      &__hero {
+        width: 100%;
+
+        &__text {
+          width: 100%;
+          height: 285px;
+
+          &_1 {
+            h1.title {
+              width: 755px;
+              height: 207px;
+              font-size: 150px;
+              margin-bottom: 28px;
+
+              span {
+                font-size: 150px;
+              }
+            }
+
+            p.subtitle {
+              font-size: 18px;
+            }
+          }
+
+          &_2 {
+            button.btn1 {
+              margin-top: 20px;
+              margin-bottom: 110px;
+            }
+          }
+
+          &_3 {
+            img {
+              margin-top: 20px;
+            }
+          }
+        }
+
+        &__image {
+          width: 100%;
+
+          img.form {
+            width: 80%;
+            height: 130px;
+          }
+          img.btn2 {
+            display: none;
+          }
+        }
+
+        &__labels {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    width: 100%;
+
+    &__box {
+      width: 95%;
+      height: 1300px;
+      margin: 0 auto;
+      padding: 0;
+      padding-top: 40px;
+
+      &__navigation {
+        width: 100%;
+        margin-bottom: 9px;
+        &__items {
+          display: none;
+        }
+        &__contact {
+          display: none;
+        }
+        img {
+          display: inline-block;
+          width: 40px;
+          height: 10px;
+        }
+      }
+
+      &__hero {
+        width: 100%;
+
+        &__text {
+          width: 100%;
+          height: 182px;
+
+          &_1 {
+            width: 533px;
+
+            h1.title {
+              width: 533px;
+              display: inline-block;
+              font-size: 110px;
+              font-weight: 400;
+              margin-bottom: 19px;
+
+              span {
+                display: inline-block;
+                font-size: 110px;
+                font-weight: 400;
+              }
+            }
+
+            p.subtitle {
+              font-size: 14px;
+              font-weight: 400;
+            }
+          }
+
+          .box {
+            width: 40%;
+            display: flex;
+            gap: 50px;
+            justify-content: space-around;
+            flex-direction: column;
+            flex-wrap: wrap-reverse;
+            align-items: center;
+          }
+
+          &_2 {
+            height: 48%;
+
+            button.btn1 {
+              display: none;
+            }
+
+            p.subtitle {
+              width: 200px;
+              height: 92px;
+              font-size: 11px;
+              font-weight: 400;
+              display: inline-block;
+            }
+          }
+
+          &_3 {
+            width: 70px;
+            display: inline-block;
+
+            img {
+              margin: 0;
+              width: 45px;
+              height: 45px;
+            }
+          }
+        }
+
+        &__image {
+          width: 100%;
+          display: flex;
+          justify-content: end;
+          align-items: end;
+        }
+
+        &__labels {
+          .label1 {
+            .subtitle1 {
+              font-size: 18px;
+              text-decoration: none;
+            }
+            .subtitle2 {
+              font-size: 18px;
+              text-decoration: none;
+            }
+          }
+
+          .label2 {
+            width: 175px;
+            font-size: 16px;
+
+            span.hall {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  .header {
+    width: 100%;
+
+
+    &__box {
+      width: 95%;
+      height: 880px;
+      margin: 0 auto;
+      padding: 0;
+      padding-top: 30px;
+
+      &__navigation {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        &__items {
+          display: none;
+        }
+        &__contact {
+          display: none;
+        }
+        img {
+          display: inline-block;
+          width: 40px;
+          height: 10px;
+        }
+      }
+
+      &__hero {
+        width: 95%;
+
+        &__text {
+          width: 100%;
+          flex-direction: column;
+          // text-align: center;
+
+          &_1 {
+            width: 100%;
+
+            h1.title {
+              width: 355px;
+              height: 97px;
+              font-size: 70px;
+              font-weight: 400;
+              margin-bottom: 24px;
+
+              span {
+                height: 97px;
+                font-size: 70px;
+                font-weight: 400;
+              }
+            }
+
+            p.subtitle {
+              font-size: 12px;
+              font-weight: 400;
+              margin-bottom: 48px;
+              margin-top: 24px;
+            }
+          }
+
+          .box {
+            width: 100%;
+            height: 132px;
+            text-align: center;
+
+            .header__box__hero__text_2 {
+              p.subtitle {
+                // text-align: center;
+                width: 291px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 23px;
+                margin-bottom: 40px;
+              }
+            }
+
+            .header__box__hero__text_3 {
+              img {
+                display: none;
+              }
+            }
+          }
+        }
+
+        &__image {
+          width: 355px;
+          height: 430px;
+          background-image: url(/images/space-copenhagen-the-stratford-architonic-rs-8-03-arcit18\ 2.png);
+          background-repeat: no-repeat;
+          margin-bottom: 50px;
+
+          img.form {
+            display: none;
+          }
+
+          img.btn2 {
+            display: inline-block;
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+          }
+        }
+
+        &__labels {
+          width: 100%;
+          height: 30px;
+          .label1 {
+            display: none;
+          }
+
+          .label2 {
+            width: 117px;
+            font-size: 12px;
+            font-weight: 400;
+            text-align: left;
+
+            span.hall {
+              font-size: 12px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+}
